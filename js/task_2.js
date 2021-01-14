@@ -1,10 +1,7 @@
-// Исправь ошибки которые будут в консоли, чтобы скрипт заработал.
-
 const inventory = {
   items: ["Knife", "Gas mask"],
-  add(itemName) {
+  const add: (itemName) => {
     console.log(`Adding ${itemName} to inventory`)
-
     this.items.push(itemName)
   },
   remove(itemName) {
